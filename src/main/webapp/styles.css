@@ -1,0 +1,64 @@
+@charset "UTF-8";
+
+.container {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-content: flex-start;
+	align-items: center;
+	justify-content: center;
+}
+
+header {
+	display: flex;
+	background-color: black;
+	color: white;
+	padding: 5px;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header a {
+	color: white;
+}
+
+body {
+	background-color: #f0f0f0;
+}
+
+nav {
+	margin-right: 10px;
+}
+
+h1 {
+	margin-left: 10px;
+}
+
+h3 {
+	margin: 20px;
+	padding: 10px;
+	font-size: 30px;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+	margin: 10px;
+	padding: 10px;
+}
+
+label {
+	font-size: 20px;
+}
+
+input {
+	padding: 5px;
+	margin: 5px
+}
+
+footer {
+	display: flex;
+	justify-content: center;
+}
